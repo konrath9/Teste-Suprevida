@@ -25,7 +25,7 @@ export const TopRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 90%;
+  max-width: 100%;
 
   * {
     white-space: nowrap;
@@ -58,6 +58,7 @@ export const TopButtons = styled.div`
 export const LoginMap = styled.div`
   > .login, .location {
   margin-left: 50px;
+  margin-right: 50px;
   color: #777777;
   text-decoration: none;
   align-items: center;
